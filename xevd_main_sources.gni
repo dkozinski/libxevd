@@ -1,0 +1,37 @@
+xevd_root_dir="//third_party/libxevd/source/libxevd/"
+
+xevd_main_sources = [
+  "${xevd_root_dir}/src_main/xevdm_alf.c",
+  "${xevd_root_dir}/src_main/xevdm_alf.h",
+  "${xevd_root_dir}/src_main/xevdm.c",
+  "${xevd_root_dir}/src_main/xevdm_def.h",
+  "${xevd_root_dir}/src_main/xevdm_df.c",
+  "${xevd_root_dir}/src_main/xevdm_df.h",
+  "${xevd_root_dir}/src_main/xevdm_dra.c",
+  "${xevd_root_dir}/src_main/xevdm_dra.h",
+  "${xevd_root_dir}/src_main/xevdm_eco.c",
+  "${xevd_root_dir}/src_main/xevdm_eco.h",
+  "${xevd_root_dir}/src_main/xevdm_ipred.c",
+  "${xevd_root_dir}/src_main/xevdm_ipred.h",
+  "${xevd_root_dir}/src_main/xevdm_itdq.c",
+  "${xevd_root_dir}/src_main/xevdm_itdq.h",
+  "${xevd_root_dir}/src_main/xevdm_mc.c",
+  "${xevd_root_dir}/src_main/xevdm_mc.h",
+  "${xevd_root_dir}/src_main/xevdm_picman.c",
+  "${xevd_root_dir}/src_main/xevdm_picman.h",
+  "${xevd_root_dir}/src_main/xevdm_recon.c",
+  "${xevd_root_dir}/src_main/xevdm_recon.h",
+  "${xevd_root_dir}/src_main/xevdm_tbl.c",
+  "${xevd_root_dir}/src_main/xevdm_tbl.h",
+  "${xevd_root_dir}/src_main/xevdm_util.c",
+  "${xevd_root_dir}/src_main/xevdm_util.h",
+]
+
+xevd_main_sse_sources = [
+  "${xevd_root_dir}/src_main/sse/xevdm_itdq_sse.c",
+  "${xevd_root_dir}/src_main/sse/xevdm_itdq_sse.h",
+  "${xevd_root_dir}/src_main/sse/xevdm_mc_sse.c",
+  "${xevd_root_dir}/src_main/sse/xevdm_mc_sse.h",
+]
+
+
