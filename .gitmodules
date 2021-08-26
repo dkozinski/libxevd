@@ -1,0 +1,3 @@
+[submodule "source/libxevd"]
+	path = source/libxevd
+	url = https://d.kozinski@github.sec.samsung.net/RD-ADMEDIA/xevd_internal.git
