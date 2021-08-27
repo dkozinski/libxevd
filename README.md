@@ -10,5 +10,5 @@ In case of using **webevc_internal** repository (https://github.sec.samsung.net/
 > Use the following command to clone repository and do not forget to pass **--recurse-submodules** to the git clone command, to automatically initialize and update submodule in the repository.
 
 ```bash
-git clone --recurse-submodules https://d.kozinski@github.sec.samsung.net/d-kozinski/libxeve.git
+git clone --recurse-submodules https://d.kozinski@github.sec.samsung.net/d-kozinski/libxevd.git
 ```
