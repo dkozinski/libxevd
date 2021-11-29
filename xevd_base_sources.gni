@@ -32,10 +32,20 @@ xevd_base_sources = [
 xevd_base_sse_sources = [
   "${xevd_root_dir}/src_base/sse/xevd_mc_sse.c",
   "${xevd_root_dir}/src_base/sse/xevd_mc_sse.h",
+  "${xevd_root_dir}/src_base/sse/xevd_itdq_sse.c",
+  "${xevd_root_dir}/src_base/sse/xevd_itdq_sse.h",
+  "${xevd_root_dir}/src_base/sse/xevd_recon_sse.c",
+  "${xevd_root_dir}/src_base/sse/xevd_recon_sse.h",
+  "${xevd_root_dir}/src_base/sse/xevd_dbk_sse.c",
+  "${xevd_root_dir}/src_base/sse/xevd_dbk_sse.h",
 ]
 
 xevd_base_avx_sources = [
   "${xevd_root_dir}/src_base/avx/xevd_mc_avx.c",
   "${xevd_root_dir}/src_base/avx/xevd_mc_avx.h",
+  "${xevd_root_dir}/src_base/avx/xevd_itdq_avx.c",
+  "${xevd_root_dir}/src_base/avx/xevd_itdq_avx.h",
+  "${xevd_root_dir}/src_base/avx/xevd_recon_avx.c",
+  "${xevd_root_dir}/src_base/avx/xevd_recon_avx.h",
 ]
 

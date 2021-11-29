@@ -90,6 +90,8 @@ config("xevdconfig") {
               cflags += [ "-Wno-unreachable-code" ]
               cflags += [ "-Wno-extra-semi" ]
               cflags += [ "-Wno-for-loop-analysis" ]
+              cflags += [ "-Wno-unreachable-code-break" ]
+              cflags += [ "-Wno-sometimes-uninitialized" ]
 
               cflags += [ "-pthread" ]
         } else {
@@ -107,6 +109,7 @@ config("xevdconfig") {
               cflags += [ "-Wno-pointer-sign" ]
               cflags += [ "-Wno-pointer-to-int-cast" ]
               cflags += [ "-Wno-maybe-uninitialized" ]
+              cflags += [ "-Wno-sometimes-uninitialized" ]
 
               cflags += [ "-Wunused-but-set-parameter" ]
               cflags += [ "-pthread" ]
